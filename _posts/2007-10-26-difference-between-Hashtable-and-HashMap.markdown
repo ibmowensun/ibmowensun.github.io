@@ -5,7 +5,7 @@ date: 2007-10-26 13:32:20 +0300
 description: Difference between HashTabel and HashMap in Java # Add post description (optional)
 img: difference-between-hashmap-hashtable-in-java.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [HashTabel, HashMap]
+tags: [HashTabel, HashMap,孙志刚]
 ---
 HashTable is thread-synchronized and thread-safe. HashMap is not thread-synchronized, so it is not thread-safe. So in the multi-threaded case to manually synchronize the HashMap the difference is the same as Vector and ArrayList.
 

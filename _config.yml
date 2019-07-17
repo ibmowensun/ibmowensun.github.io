@@ -1,4 +1,4 @@
-title: Hello, world! I am Owen Sun
+title: Hello,I am Owen Sun
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,7 +9,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Owen Sun # add your name
+author: Owen Sun(孙志刚) # add your name
 author-img: Owen-Sun.jpg # add your photo
 about-author: Architect, IBM Marketplace Commerce Platform. Always hungry to keep learning. # add description
 social-twitter: # add your Twitter handle
