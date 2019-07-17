@@ -139,8 +139,13 @@
   <li>HashTable is thread-synchronized and thread-safe. HashMap is not thread-synchronized, so it is not thread-safe. So in the multi-threaded case to manually synchronize the HashMap the difference is the same as Vector and ArrayList.</li>
   <li>HashTable does not allow null values (both key and value are not allowed), HashMap allows null values (both key and value can be).</li>
   <li>HashTable has a contains (Object value) function, the same as the containsValue (Object value) function.</li>
-  <li>HashTable uses Enumeration, HashMap uses Iterator.
-The above are just the differences in the surface, and their implementation is also very different.</li>
+  <li>HashTable uses Enumeration, HashMap uses Iterator.</li>
+</ol>
+
+<p><img src="https://techdifferences.com/wp-content/uploads/2016/07/Hashmap-Vs-hashtable.jpg" alt="Implement/ Extend:" /></p>
+
+<p>The above are just the differences in the surface, and their implementation is also very different.</p>
+<ol>
   <li>The default size of the hash array in HashTable is 11, and the added method is old*2+1. The default size of the hash array in HashMap is 16, and must be an exponent of 2.</li>
   <li>The use of hash values is different, HashTable directly uses the object’s hashCode, the code is like this:</li>
 </ol>
@@ -163,8 +168,6 @@ The above are just the differences in the surface, and their implementation is a
 　　} 
 
 </code></pre></div></div>
-
-<p><img src="https://www.google.com/url?sa=i&amp;source=imgres&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjarZ6FzLvjAhVKLo8KHTuvAjcQjRx6BAgBEAU&amp;url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F40471%2Fdifferences-between-hashmap-and-hashtable&amp;psig=AOvVaw0X28KEGnvYzQuxAkpGfUtv&amp;ust=1563440547215549" alt="Quick comparing:" /></p>
 
 
       <div class="page-footer">

@@ -15,6 +15,9 @@ HashTable is thread-synchronized and thread-safe. HashMap is not thread-synchron
 2. HashTable does not allow null values (both key and value are not allowed), HashMap allows null values (both key and value can be).
 3. HashTable has a contains (Object value) function, the same as the containsValue (Object value) function.
 4. HashTable uses Enumeration, HashMap uses Iterator.
+
+![Implement/ Extend:](https://techdifferences.com/wp-content/uploads/2016/07/Hashmap-Vs-hashtable.jpg)
+
 The above are just the differences in the surface, and their implementation is also very different.
 5. The default size of the hash array in HashTable is 11, and the added method is old*2+1. The default size of the hash array in HashMap is 16, and must be an exponent of 2.
 6. The use of hash values is different, HashTable directly uses the object's hashCode, the code is like this:
@@ -40,5 +43,5 @@ int hash = key.hashCode();
 ```
 
 
-![Quick comparing:](https://www.google.com/url?sa=i&source=imgres&cd=&cad=rja&uact=8&ved=2ahUKEwjarZ6FzLvjAhVKLo8KHTuvAjcQjRx6BAgBEAU&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F40471%2Fdifferences-between-hashmap-and-hashtable&psig=AOvVaw0X28KEGnvYzQuxAkpGfUtv&ust=1563440547215549)
+
 
