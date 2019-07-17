@@ -19,7 +19,7 @@ where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The support d
 ### How to fix
 https://forums.virtualbox.org/viewtopic.php?f=8&t=84092
 
-解决办法：大多数问题都是通过Apple文档：![用户批准的内核扩展加载](https://developer.apple.com/library/content/technotes/tn2459/_index.html)来解决的。
+解决办法：大多数问题都是通过Apple文档：[用户批准的内核扩展加载](https://developer.apple.com/library/content/technotes/tn2459/_index.html)来解决的。
 综上所述：
 
 * 如果安装失败，可能不会提示您转到“安全性”设置。没人知道它为什么会起作用/不起作用。
