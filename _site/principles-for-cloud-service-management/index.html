@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The 5 principles of cloud service management and operations - Hello,I am Owen Sun</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Hello,I am Owen Sun" property="og:site_name">
+  
+    <meta content="The 5 principles of cloud service management and operations" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="To adopt microservices-based applications and consider the service management and operational facets of their applications, your operations team can follow five principles" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/principles-for-cloud-service-management/" property="og:url">
+  
+  
+    <meta content="2019-07-14T14:00:00-07:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/5-principles-of-management.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="cloud" property="article:tag">
+    
+    <meta content="principles" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="The 5 principles of cloud service management and operations">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/principles-for-cloud-service-management/">
+  
+  
+    <meta name="twitter:description" content="To adopt microservices-based applications and consider the service management and operational facets of their applications, your operations team can follow five principles">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/5-principles-of-management.png">
+  
+
+	<meta name="description" content="To adopt microservices-based applications and consider the service management and operational facets of their applications, your operations team can follow five principles">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/Owen-Sun.jpg" alt="Owen Sun(孙志刚)"></a>
+      </div>
+      <div class="author-name">Owen Sun(孙志刚)</div>
+      <p>Architect, IBM Marketplace Commerce Platform. Always hungry to keep learning.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/owen-sun" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2019 &copy; Owen Sun(孙志刚)</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/5-principles-of-management.png alt="The 5 principles of cloud service management and operations">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">The 5 principles of cloud service management and operations</h1>
+        <div class="page-date"><span>2019, Jul 14&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>To adopt microservices-based applications and consider the service management and operational facets of their applications, your operations team can follow five principles:</p>
+
+<ul>
+  <li>Operations</li>
+  <li>Monitoring</li>
+  <li>Eventing and alerting</li>
+  <li>Collaboration</li>
+  <li>Root-cause analysis</li>
+</ul>
+
+<h3 id="managing-microservices-involves-five-key-principles">Managing microservices involves five key principles</h3>
+
+<p>Many companies are transforming their monolithic applications to use a microservices-based architecture. The microservices architecture provides many advantages:</p>
+
+<p>Agility and speed in releasing new functionality
+Flexibility in changing the implementation
+Independence between functional units
+Scalability
+However, in terms of management, these benefits come with a price. The services management solution must deal with the microservices architecture’s inherent dynamics, dependencies, and complexities to ensure that the application is available and performing. Unless the operations management team is also shifting its paradigm, the microservices-based application might behave worse than a monolithic application that was built in the traditional fashion.</p>
+
+<h3 id="5-key-principles-of-cloud-service-management-and-operations">5 key principles of cloud service management and operations</h3>
+
+<p>In the Garage Method for Cloud, the Operate practices explain how to ensure operational excellence. You follow the Operate practices to deliver a more resilient environment:</p>
+
+<p>Implicit redundancy through application high-availability and scalability</p>
+
+<p>Fault tolerance by using concepts such as circuit breaker patterns</p>
+
+<p>While these practices reduce the direct impact of an outage, they don’t relieve the DevOps team from detecting the incident and responding to it with a sense of urgency.</p>
+
+<p>Managing microservices involves five key principles. The principles assist the operations team to adopt microservices-based applications. They also help developers think about the operational facets of their application, as both developers and operations share a common goal of services that are robust and of high quality. For this to happen it is important to engage Operations (or SREs) early to consider operational choices when designing and developing the application. Refactoring these decisions at a later time is error-prone, cumbersome and certainly less effective.</p>
+
+<h2 id="operations">Operations</h2>
+<p><img src="https://www.ibm.com/cloud/garage/images/practices/microservices-five-principles/operations-principle.png" alt="Operations" />
+Several operational activities typically must be done in a production environment: making sure that applications have the right capacity to cope with the load, complying with corporate or governmental policies, and so forth.</p>
+
+<p>Some principles of these tasks are easier to achieve with the right support in place. In capacity management, for example, microservices can support elasticity where infrastructures can automatically scale depending on the usage. The 12-factor app manifesto describes a methodology for building applications that can scale without significant changes to tooling, architecture, or development practices.</p>
+
+<p>While microservices don’t need to be implemented by using containers, it’s beneficial to use both technologies together. When you use containers, everything that is required for the software to run is packaged into isolated, lightweight bundles, making deployment and operations easier. Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. Kubernetes provides functionality for many operational tasks:</p>
+
+<p>Placement of workload based on resource requirements
+Automated rollouts and rollbacks
+Service discovery and load balancing
+Horizontal scaling
+Self-healing
+As you can see, many of the typical operational tasks can be done through Kubernetes so that you can focus on other operational activities.</p>
+
+<p>One of those tasks is checking compliance. For example, you might need to check for compliance with security advisories, corporate policies, or standards that are enforced by industry or government. These checks should already be run during the development and testing stages. It’s also wise to run the checks in production because many policies keep changing; for example, due to a security exposure becoming public.</p>
+
+<p>Another example is backup and archiving. To protect from disasters and meet regulatory needs, backups must be done regularly based on RPO (recovery point objective), which is the maximum targeted period in which data might be lost, and RTO (recovery time objective), which is the targeted duration of time and a service level within which a business process must be restored after a disaster. A good microservices design externalizes storage-related activities to explicit persistency services so that these tasks can be limited to the services that deal with persistence. Needless to say, you must verify that the backups are consistent and usable.</p>
+
+<h2 id="monitoring">Monitoring</h2>
+<p><img src="https://www.ibm.com/cloud/garage/images/practices/microservices-five-principles/monitoring-principle.png" alt="Operations" /></p>
+
+<p>Each microservice must be monitored. Before thinking of, let alone implementing, a monitoring solution, be sure to define what to monitor. Your guiding principle is the experience of the user of the service, which might be a human (for front-facing services) or a system (for back-end services). Therefore, the key metrics typically are availability, performance/response time/latency, and error rate. Ideally, synthetic transactions are done from multiple locations to ensure that the relevant functions of each service are “exercised” and that the key metrics are evaluated against expected results.</p>
+
+<p>The metrics are drastically different from a typical monitoring solution that looks for CPU, memory, and disk space. Those parameters might still be monitored, but with the move toward cloud-based operating models such as IaaS and PaaS, the involvement of the application owner decreases.</p>
+
+<p>Expose a HealthCheck API for each microservice. As developers know best what the critical resources and checks for their services are, they should implement HealthCheck.</p>
+
+<p>Prometheus is an open-source monitoring framework and Fluentd is a logging data collector. Both tools work with Kubernetes. They provide some level of HealthCheck API natively, easing the path for developers to take advantage of it.</p>
+
+<p>Another important element to monitor is application logs, as they provide visibility into the behavior of a running app. A typical use case is the parsing and investigation of logs during the diagnostic analysis of an incident. Critical alerts might be exposed in logs as well, so a monitoring solution should look for those patterns and alert the operations team. Most of the time, the logs are streams, such as 12-factor app processes that write their unbuffered event stream to stdout. Although microservices are loosely coupled, they depend on each other to provide their logic. They have been developed in different programming languages and their execution characteristics are distributed and highly dynamic, so procedures must be in place to aggregate logs to a central place and perform search and analysis from there.</p>
+
+<p>One technique to stitch traces together is the use of correlation identifiers. Using correlation IDs not only helps to identify the execution path for a given transaction, but also supports visualization that adds the context of time, such as latency; the hierarchy of the services that are involved; and the serial or parallel nature of the process or task execution. OpenTracing is a vendor-neutral open standard for distributed tracing.</p>
+
+<h2 id="eventing-and-alerting">Eventing and alerting</h2>
+<p><img src="https://www.ibm.com/cloud/garage/images/practices/microservices-five-principles/eventing-and-alerting-principle.png" alt="Eventing and alerting" /></p>
+
+<p>The monitoring solution detects problems with the services, but plenty of alerts can still occur. In this meshed architecture, services depend on each other, so a degraded performance in one service might result in cascading failures in each of the dependent services. To avoid chasing symptoms rather than causes, an event-management system integrates alerts from various feeds—service monitoring, log monitoring, infrastructure monitoring—and attempts to correlate those events. To do so, topology information and deployment state information, such as how many instances of a service are currently running, are required.</p>
+
+<p>As this information changes rapidly, the data must be gathered at the time of the correlation. Traditional approaches like Configuration Management Databases (CMDBs) have a high risk of showing incomplete or stale information. This dynamic data—for example, topology information—must be retrieved directly from the (container) management system at the time of the detection and used for correlation.</p>
+
+<p>The results of this correlation are actionable alerts. Each event should be associated with a runbook so that the First Responder team knows how to respond to the alert and what mitigation action to do. Ideally, these runbooks are codified in the form of scripts so that the event-management system can automate the execution and surface only unique problems to a human.</p>
+
+<p>Of course, you don’t want First Responders to waste time staring at consoles, so the system instead notifies them at the receipt of a new alert. Notifications can be sent through various channels: email, SMS text message, or an alert in an instant messaging system. The notification system also alerts other people if the response is not acknowledged by First Responders within a defined SLA.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p><img src="https://www.ibm.com/cloud/garage/images/practices/microservices-five-principles/collaboration-principle.png" alt="Collaboration" /></p>
+
+<p>After the First Responder is notified about the incident, he or she starts with the diagnostics. The first step is to isolate the component at fault. After it is isolated, the investigation continues to see what exactly happened and what can be done to restore the service as quickly as possible.</p>
+
+<p>In an architecture where many services depend on each other, it’s likely that many people need to collaborate. As one of the key concepts of microservices is to support multi-language and event multi-platforms, the need to interact with subject matter experts (SMEs), including developers, is only increasing. The term ChatOps describes this process, where people use an instant-messaging communication platform to collaborate among SMEs. Through the ChatOps platform, all interaction is logged in a central place and you can browse through the log to see what actions were taken.</p>
+
+<p>ChatOps is not limited to humans interacting with each other. By using bot technology, DevOps and service management tools can be integrated. Two examples are a monitoring system that pushes a chart showing the response-time distribution over the last 24 hours and a deployment system that informs ChatOps about the recent deployment tasks.</p>
+
+<p>In addition, improved visibility through dashboards can expedite restoration. As the microservices-based application is dynamic in nature—continued deployment, auto scaling, dynamic instantiation, circuit-breakers, and so forth—having an accurate understanding of the application is a challenge. Dashboards visualize topology, deployment activities, and the operational state, showing availability and performance metrics. A dashboard should also visualize the key service indicators from a user perspective.</p>
+
+<h2 id="root-cause-analysis">Root-cause analysis</h2>
+<p><img src="https://www.ibm.com/cloud/garage/images/practices/microservices-five-principles/collaboration-principle.png" alt=" Root-cause analysis" />
+Through collaboration, the operations team eventually identifies the correct mitigation and restores the service. To prevent the incident from reappearing, the root cause must be assessed. Follow the 5-Whys approach, as this method helps to surface the issue that was ultimately responsible for an incident. This investigation must be operated in a blameless culture; only through that approach are people willing to share their insights and help others to learn from the experience.</p>
+
+<p>After the root-cause is known, appropriate steps are taken to address it. The steps might range from changes to the application or its architecture, changes to the infrastructure, or changes to the management system. Following an agile approach, these changes are put into the backlog and are ranked at the next sprint.</p>
+
+<p>A continual challenge is that functional enhancements tend to be ranked higher than the outage-related changes. For those changes to be implemented, companies take different approaches. Some companies make operations the responsibility of the DevOps teams. In this model, developers have an intrinsic interest in addressing the reliability issues. Another approach is to establish a Site Reliability Engineering (SRE) team. This team is empowered to address reliability issues by spending at least 50% of their time on engineering work. Examples are reducing toil through automation and assisting the development team in implementing outage-related changes.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=The 5 principles of cloud service management and operations&url=http://localhost:4000/principles-for-cloud-service-management/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/principles-for-cloud-service-management/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/principles-for-cloud-service-management/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#cloud" class="tag">&#35; cloud</a>
+          
+            <a href="/tags#principles" class="tag">&#35; principles</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//owen_sun.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'Google Analytics', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
