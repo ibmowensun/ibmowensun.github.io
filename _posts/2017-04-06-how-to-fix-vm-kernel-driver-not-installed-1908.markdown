@@ -3,7 +3,8 @@ layout: post
 title: "How to fix suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) "
 date: 2017-04-06 13:32:20 +0300
 description: "How to fix VirtualBox error suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) " # Add post description (optional)
-img:  # Add image post (optional)
+img:  vm-error.png # Add image post (optional)
+tags: [Virtualbox, error,孙志刚]
 ---
 Error when starting Virtualbox:
 ```
