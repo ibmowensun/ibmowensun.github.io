@@ -1,11 +1,10 @@
 title: Hello,I am Owen Sun
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is Owen Sun's personal blog,  it records Owen's personal obeservation and experiences 
+  for IT development and Software architecture.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://owensun.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -16,13 +15,13 @@ social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: owen-sun # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: owensun1980@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: owen_sun # add your discus identifier
 
 # Tracker
-analytics: Google Analytics # Google Analytics
+analytics: UA-144117697-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
