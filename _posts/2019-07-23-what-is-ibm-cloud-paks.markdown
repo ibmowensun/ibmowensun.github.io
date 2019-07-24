@@ -13,7 +13,7 @@ It’s been more than a decade since commercial cloud first transformed business
 
 Business leaders have the difficult task of keeping pace with innovation without sacrificing security, compliance or the value of existing investments. Organizations must move past the basic cloud model and open the next chapter of cloud transformation to help successfully balance these needs.
 
-![Openshift4](https://1.cms.s81c.com/sites/default/files/2019-06/IBM%20Cloud%20Pak%20for%20Integration%20diagram.jpg)
+![IBM Cloud Paks Components](/assets/img/ibm-cloud-paks-components.png)
 
 
 
