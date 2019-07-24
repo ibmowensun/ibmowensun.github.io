@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are IBM Cloud Paks?
-date: 2019-07-20 00:00:00 +0300
+date: 2019-07-23 00:00:00 +0300
 description: IBM Cloud Pak for Integration is the industry’s most complete hybrid integration platform. Access all of the integration tools that your team needs to balance traditional and modern styles of integration. Set up the appropriate governance to provide the right level of access to each team member. Use any of the tools alone or together, through a single interface with a single login and dashboard.
 img: ibm-cloud-paks.png # Add image post (optional)
 tags: [ibm, cloud-paks,integration] # add tag

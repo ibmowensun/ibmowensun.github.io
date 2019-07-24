@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10 most important differences between OpenShift and Kubernetes
-date: 2019-07-23 00:00:00 +0300
+date: 2019-07-21 00:00:00 +0300
 description: OpenShift has been often called as “Enterprise Kubernetes” by its vendor - Red Hat.  real differences between OpenShift and Kubernetes,is often confusing, as Red Hat tends to describe it as PaaS, sometimes hiding the fact that Kubernetes is an integral part of OpenShift with more features built around it 
 img: os-vs-k8s.png # Add image post (optional)
 tags: [difference, kubernetes,OpenShift] # add tag
