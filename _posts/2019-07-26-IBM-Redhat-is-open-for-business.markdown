@@ -25,9 +25,10 @@ The acquisition redefines the cloud market for business. Red Hat's open hybrid c
 
 > "Businesses are starting the next chapter of their digital reinventions, modernizing infrastructure and moving mission-critical workloads across private clouds and multiple clouds from multiple vendors," 
 
-said Ginni Rometty, IBM chairman, president and CEO. 
 
-"They need open, flexible technology to manage these hybrid multicloud environments. And they need partners they can trust to manage and secure these systems. IBM and Red Hat are uniquely suited to meet these needs. As the leading hybrid cloud provider, we will help clients forge the technology foundations of their business for decades to come."
+>"They need open, flexible technology to manage these hybrid multicloud environments. And they need partners they can trust to manage and secure these systems. IBM and Red Hat are uniquely suited to meet these needs. As the leading hybrid cloud provider, we will help clients forge the technology foundations of their business for decades to come."
+
+<div style="font-weight: bold; text-align: right"> Ginni Rometty, IBM chairman, president and CEO.</div>
 
 "When we talk to customers, their challenges are clear: They need to move faster and differentiate through technology. They want to build more collaborative cultures, and they need solutions that give them the flexibility to build and deploy any app or workload, anywhere," said Jim Whitehurst, president and CEO, Red Hat.
 
