@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Secure DevOps basics-- A guide for developers - Hello,I am Owen Sun</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Hello,I am Owen Sun" property="og:site_name">
+  
+    <meta content="Secure DevOps basics-- A guide for developers" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="The goal of secure DevOps is to introduce a framework that builds a bridge between fast and secure software development. Here are the keys for bridging that development gap between speed and security." property="og:description">
+  
+  
+    <meta content="http://localhost:4000/secure-devops-basics-guide-for-developers/" property="og:url">
+  
+  
+    <meta content="2019-07-30T05:00:00+08:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/devsecops.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="dev" property="article:tag">
+    
+    <meta content="security" property="article:tag">
+    
+    <meta content="ops" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="Secure DevOps basics-- A guide for developers">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/secure-devops-basics-guide-for-developers/">
+  
+  
+    <meta name="twitter:description" content="The goal of secure DevOps is to introduce a framework that builds a bridge between fast and secure software development. Here are the keys for bridging that development gap between speed and security.">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/devsecops.jpg">
+  
+
+	<meta name="description" content="The goal of secure DevOps is to introduce a framework that builds a bridge between fast and secure software development. Here are the keys for bridging that development gap between speed and security.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/Owen-Sun.jpg" alt="Owen Sun(孙志刚)"></a>
+      </div>
+      <div class="author-name">Owen Sun(孙志刚)</div>
+      <p>Architect, IBM Marketplace Commerce Platform. Always hungry to keep learning.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/owen-sun" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:owensun1980@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2019 &copy; Owen Sun(孙志刚)</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/devsecops.jpg alt="Secure DevOps basics-- A guide for developers">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Secure DevOps basics-- A guide for developers</h1>
+        <div class="page-date"><span>2019, Jul 30&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>At the center of any successful DevOps initiative is a simple but often overlooked concept: Because developers drive the software agenda, their participation is crucial to achieving a more secure framework. But simply acknowledging this fact won’t get the job done. As a developer you need to be at the center of an application security strategy for it to be effective. Secure DevOps, also called DevSecOps or rugged DevOps by practitioners, is the next evolution.</p>
+
+<p>Today, nobody disputes the need to move fast and deploy code quickly. An agile framework underpins success in the digital age. But rapid innovation can conflict with stability and security. Without security, DevOps merely introduces vulnerabilities into software faster.</p>
+
+<p>To resolve these conflicts, you need to close the gaps in feedback loops. Too often, teams are not effectively integrated, and these connecting and intersecting loops—often between different teams, but even within the same teams—aren’t optimized effectively. This results in gaps and problems with code development, leading to slower delivery schedules and vulnerabilities that increase security risk.</p>
+
+<p>In many organizations, the underlying problem is that security isn’t addressed until the end of the software development lifecycle. The result Developers find creative ways to work around security controls that slow them down or create more work. In the quest to move quickly, developers inadvertently create new, bigger problems.</p>
+
+<p>The goal of secure DevOps is to introduce a framework that builds a bridge between fast and secure software development. Here are the keys for bridging that development gap between speed and security.</p>
+
+<h2 id="build-a-security-culture">Build a security culture</h2>
+
+<p>To start, culture should focus on openness and ongoing learning. Within the secure DevOps world, trust and cooperation are everything, and ongoing training and learning pay enormous dividends. As you build a culture that emphasizes openness and learning, establishing strong feedback loops will be key. Moreover, security champions who understand security within both the Dev and Ops groups will be necessary to help in transitions, infusing their knowledge and enthusiasm while bolstering team autonomy. These leaders will empower their teams and give them the authority to determine many of their own processes and tools based on their needs.</p>
+
+<h3 id="keys">Keys:</h3>
+
+<ul>
+  <li>Build and maintain a culture of learning, candid exchange of ideas, and strong feedback loops.
+Establish security champions to empower other teams to be more secure.</li>
+  <li>Automate and autonomize security</li>
+</ul>
+
+<p>The ability to automate security testing—through scripting, static and dynamic analysis, composition analysis, and integration of testing with existing tools and within processes—goes a long way toward identifying flaws early in the lifecycle and speeding up the delivery of secure code. It’s better to fail early, at the developer’s desktop, than late, on the customer’s laptop or smartphone.</p>
+
+<p>Once the transition is made, don’t accept high false positives—too many, and developers will start distrusting the results and work around the tools. Finally, it will all be for naught if there is no emphasis on orchestration. All systems are prone to bugs and errors that can only be overcome through the orchestration of code and systems during rapid spin-ups and shutdowns. Equally important: Teams must be empowered to act without waiting for edicts from the CISO or other security professionals.</p>
+
+<h3 id="keys-actions-include">Keys actions include:</h3>
+
+<ul>
+  <li>
+    <p>Automate security testing and monitoring tools into relevant stages of the software production pipeline, especially the early stages (“shift-left”).</p>
+  </li>
+  <li>
+    <p>Reduce false positives; otherwise, the results of tests will be ignored.</p>
+  </li>
+  <li>
+    <p>Build robust infrastructure-as-code and security-as-code orchestration.</p>
+  </li>
+  <li>
+    <p>Teams must have autonomy to quickly move these steps forward or loop backward.</p>
+  </li>
+</ul>
+
+<h2 id="measure-the-results-of-cultural-and-technical-shifts">Measure the results of cultural and technical shifts</h2>
+
+<p>All changes should work under a holistic model that encourages team autonomy and high levels of communication, responsibility, and accountability. This includes regular code reviews, security exercises, and performance measurements and benchmarks. Furthermore, response mechanisms and procedures should be established, such as code-grooming guidelines, threat-modeling methods, and policies for developers to escalate issues to the security team. Enterprises that promote the right culture, embed the right technology, and develop robust processes tied to metrics and key performance indicators (KPIs) create a secure DevOps framework that reduces problems and minimizes emergencies.</p>
+
+<h3 id="keys-actions-you-should-take-include">Keys actions you should take include:</h3>
+
+<ul>
+  <li>Employ regular:
+    <ul>
+      <li>Code reviews</li>
+      <li>Security exercises</li>
+      <li>Performance measurements and benchmarks</li>
+    </ul>
+  </li>
+  <li>Establish:
+    <ul>
+      <li>Code-grooming guidelines</li>
+      <li>Threat-modeling methods</li>
+      <li>Policies for developers to escalate issues to security champions</li>
+    </ul>
+  </li>
+  <li>Tie process to metrics and KPIs.</li>
+</ul>
+
+<h2 id="take-the-next-step">Take the next step</h2>
+
+<p>According to the 2016 State of DevOps Report, just 22% of organizations have made the switch to DevOps. Even among those organizations, DevOps is not uniformly used across teams and products. However, there are some examples of organizations that have successfully adopted DevOps and are on their way to secure DevOps. They’re demonstrating that a highly focused approach results in net gains for development teams, the enterprise, partners, and customers.</p>
+
+<p>For instance, Capital One moved from a waterfall approach to a continuous deployment environment that relies heavily on containers, microservices, and cloud technology. CIO Rob Alexander said this has helped reduce bureaucracy and technical debt. And Netflix is often seen as a unicorn in the DevOps world. With DevOps at the center of everything, its applications run on a variety of viewing devices to create a seamless technology interface. So how can you get on the same trajectory?</p>
+
+<p>Here are two easy steps you can take immediately:</p>
+
+<ul>
+  <li>
+    <p>Join and contribute to the Open Web Application Security Project (OWASP) or promote certifications such as the ISC2 Certified Secure Software Lifecycle Professional (CSSLP) within your organization.</p>
+  </li>
+  <li>
+    <p>Take advantage of online training options, such as e-learning offerings from app sec companies or even YouTube, as a starting point.</p>
+  </li>
+</ul>
+
+<h2 id="secure-software-is-a-journey">Secure software is a journey</h2>
+
+<p>Secure DevOps presents enormous opportunities and challenges. To get there, you must break down the barriers that block the three Cs of DevOps: communication, collaboration, and cooperation.</p>
+
+<p>Developers who help build a framework that supports secure DevOps are poised for a level of speed, innovation, and disruption that puts them and their organization at the forefront of the application economy. Don’t panic. Embrace change, and you will be rewarded.</p>
+
+<p><img src="/assets/img/dso-new-logo.png" alt="Dev Sec Ops" /></p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Secure DevOps basics-- A guide for developers&url=http://localhost:4000/secure-devops-basics-guide-for-developers/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/secure-devops-basics-guide-for-developers/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/secure-devops-basics-guide-for-developers/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#dev" class="tag">&#35; dev</a>
+          
+            <a href="/tags#security" class="tag">&#35; security</a>
+          
+            <a href="/tags#ops" class="tag">&#35; ops</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+    <div id="disqus_thread" class="article-comments"></div>
+    <script>
+      (function() {
+          var d = document, s = d.createElement('script');
+          s.src = '//owen_sun.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-144117697-1', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
